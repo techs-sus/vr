@@ -1,0 +1,42 @@
+{
+	"name": "@rbxts/vr",
+	"version": "1.0.0",
+	"description": "worst vr framework ever written (written by tech)",
+	"main": "out/init.lua",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"prepublishOnly": "pnpm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/techs-sus/vr.git"
+	},
+	"keywords": [],
+	"author": "techs-sus (techyesreal#5007)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/techs-sus/vr/issues"
+	},
+	"homepage": "https://github.com/techs-sus/vr#readme",
+	"types": "out/index.d.ts",
+	"files": [
+		"out",
+		"!**/*.tsbuildinfo"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^1.3.3-types.0",
+		"@rbxts/types": "^1.0.571",
+		"@typescript-eslint/eslint-plugin": "^5.17.0",
+		"@typescript-eslint/parser": "^5.17.0",
+		"eslint": "^8.12.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-roblox-ts": "^0.0.32",
+		"prettier": "^2.6.1",
+		"typescript": "^4.6.3"
+	}
+}
