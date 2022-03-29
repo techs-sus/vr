@@ -27,7 +27,7 @@ class emulatedHumanoid {
 		const torso = this.torso;
 		const humanoid = this.humanoid;
 		const model = this.model;
-		// Config things 😢
+		// Config things
 		rightArm.Name = "Right Arm";
 		rightShoulder.Name = "Right Shoulder";
 		rightShoulder.C0 = new CFrame(1, 0.5, 0);
